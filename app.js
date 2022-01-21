@@ -1,0 +1,1 @@
+console.log('Hello! How has your day been?');
