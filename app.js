@@ -27,4 +27,4 @@ console.log(welcome);
 
 // output variables and result to console
 console.log("This " + assignment1.programName + " was designed by " + assignment1.name + ".");
-console.log("The numbers " + number1 + ", " + number2 + ", and " + number3 + " add up to " + result);
+console.log("The numbers " + number1 + ", " + number2 + ", and " + number3 + " add up to " + result + ".");
