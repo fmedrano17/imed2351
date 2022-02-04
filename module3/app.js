@@ -1,4 +1,4 @@
-console.log("Hello! This program gives you the date and time, as well as the due date for this assignment");
+console.log("Hello! This program gives you todays date, as well as the due date for this assignment.");
 
 const dueDate = {
     month: "2",
@@ -6,9 +6,19 @@ const dueDate = {
     year: "2022"
 };
 
-function getDueDate(month, day, year) {
-    let dueDateString = (month + "-" + date + "-" + year);
-    return dueDateString
+function getDueDate(month, date, year) {
+    var dueDateString = (month + "-" + date + "-" + year);
+    return dueDateString;
 }
 
-console.log("The due date is: " + getDueDate);
+function todaysDate() {
+    const d = new Date();
+    let month = d.getMonth()+1;
+    let date = d.getDate();
+    let year = d.getFullYear();
+    var dateString = (month + "-" + date + "-" + year);
+    return dateString;
+}
+
+console.log("The current date is: " + todaysDate());
+console.log("The due date is: " + getDueDate(dueDate.month, dueDate.date, dueDate.year));
