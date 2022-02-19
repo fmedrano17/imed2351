@@ -25,7 +25,7 @@ function shrink(){
         console.log(i);
     }
 
-    console.log("Shrinking complete!");
+    console.log("For loop complete!");
     currentSize = fontNum.value;
 }
 
@@ -37,6 +37,6 @@ function grow(){
         console.log(currentSize);
     }
 
-    console.log("Growing complete!");
+    console.log("While loop complete!");
     currentSize = fontNum.value;
 }
